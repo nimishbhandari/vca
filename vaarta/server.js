@@ -93,5 +93,5 @@ io.on('connection', socket => {
 })
 
 server.listen(`${process.env.PORT}`, (req, res) => {
-    console.log("Server Listening");
+    console.log(`Server Listening on ${process.env.PORT}`);
 })
